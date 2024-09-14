@@ -1,4 +1,4 @@
-package org.lsh.juc.two;
+package org.lsh.juc.automicClass;
 
 import org.junit.jupiter.api.Test;
 

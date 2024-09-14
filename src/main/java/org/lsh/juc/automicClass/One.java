@@ -1,4 +1,4 @@
-package org.lsh.juc.two;
+package org.lsh.juc.automicClass;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

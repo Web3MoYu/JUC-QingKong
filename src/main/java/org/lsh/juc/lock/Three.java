@@ -1,4 +1,4 @@
-package org.lsh.juc.one;
+package org.lsh.juc.lock;
 
 
 import java.util.concurrent.TimeUnit;
