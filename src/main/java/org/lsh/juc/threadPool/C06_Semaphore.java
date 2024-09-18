@@ -1,6 +1,5 @@
 package org.lsh.juc.threadPool;
 
-import java.sql.Time;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
