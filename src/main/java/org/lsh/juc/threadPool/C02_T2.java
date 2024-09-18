@@ -2,6 +2,7 @@ package org.lsh.juc.threadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class C02_T2 {
 
@@ -11,10 +12,11 @@ public class C02_T2 {
         // 创建只有一个容量的线程池
         service = Executors.newSingleThreadExecutor();
 
-        service.submit(() -> {
+        Future<?> submit = service.submit(() -> {
             for (int i = 0; i < 5; i++) {
                 System.out.println(i);
             }
         });
+        System.out.println(submit.isDone());
     }
 }
